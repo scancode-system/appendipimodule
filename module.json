@@ -1,0 +1,14 @@
+{
+    "name": "AppendIpi",
+    "alias": "appendipi",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AppendIpi\\Providers\\AppendIpiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
