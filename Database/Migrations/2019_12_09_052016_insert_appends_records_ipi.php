@@ -16,7 +16,7 @@ class InsertAppendsRecordsIpi extends Migration
     public function up()
     {
         $validation = Validation::where('module_name', 'ValidationProduct')->first();
-        Append::create(['validation_id' => $validation->id, 'module' => 'AppendIpi', 'alias' => 'Ipi']);
+        Append::create(['validation_id' => $validation->id, 'module' => 'AppendIpi', 'alias' => 'Ipi (Produto)']);
     }
 
     /**

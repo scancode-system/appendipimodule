@@ -12,4 +12,9 @@ class AppendIpiValidator
 		];
 	}
 
+	public function filterRules($data)
+	{
+
+	}
+
 }
