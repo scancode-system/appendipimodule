@@ -12,9 +12,11 @@ class AppendIpiValidator
 		];
 	}
 
-	public function filterRules($data)
-	{
-
+	public function filterRules(){
+		return [
+			['rule' => ['ipi' => [new NullRule()]], 'filter' => 'setToZero']
+		];
 	}
+
 
 }
