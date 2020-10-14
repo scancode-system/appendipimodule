@@ -18,7 +18,7 @@ class InfoService extends InfoValidationService
 		];
 	}
 
-	public function modifiers()
+	public function modifiers($data)
 	{
 		return  [
 			['rule' => ['ipi' => [new NullRule()]], 'filter' => 'setToZero']
